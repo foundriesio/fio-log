@@ -1,7 +1,7 @@
 {
   "name": "@foundriesio/log",
   "private": false,
-  "version": "1.0.7",
+  "version": "1.0.8",
   "engines": {
     "node": ">= 12"
   },
