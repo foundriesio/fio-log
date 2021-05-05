@@ -14,6 +14,6 @@ if (isProd) {
   streams.push({ level: 'error', stream: process.stderr });
 }
 
-const log = pino({ level }, pinoms.multistream(streams, options));
+export const log = pino({ level }, pinoms.multistream(streams, options));
 
 export default log;
